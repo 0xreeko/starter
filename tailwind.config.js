@@ -257,6 +257,23 @@ module.exports = {
             transform: `translateX(calc(100% + 1rem))`,
           },
         },
+        // Hover Card
+        slideDownAndFade: {
+          from: { opacity: 0, transform: 'translateY(-2px)' },
+          to: { opacity: 1, transform: 'translateY(0)' },
+        },
+        slideLeftAndFade: {
+          from: { opacity: 0, transform: 'translateX(2px)' },
+          to: { opacity: 1, transform: 'translateX(0)' },
+        },
+        slideUpAndFade: {
+          from: { opacity: 0, transform: 'translateY(2px)' },
+          to: { opacity: 1, transform: 'translateY(0)' },
+        },
+        slideRightAndFade: {
+          from: { opacity: 0, transform: 'translateX(2px)' },
+          to: { opacity: 1, transform: 'translateX(0)' },
+        },
       },
       animation: {
         // Dropdown menu
@@ -285,13 +302,18 @@ module.exports = {
         "toast-slide-in-bottom":
           "toast-slide-in-bottom 150ms cubic-bezier(0.16, 1, 0.3, 1)",
         "toast-swipe-out": "toast-swipe-out 100ms ease-out forwards",
+        // Hover Card
+        'slideUpAndFade': 'slideUpAndFade 500ms cubic-bezier(0.16, 0, 0.13, 1)',
+        'slideDownAndFade': 'slideDownAndFade 500ms cubic-bezier(0.16, 0, 0.13, 1)',
+        'slideRightAndFade': 'slideRightAndFade 500ms cubic-bezier(0.16, 0, 0.13, 1)',
+        'slideLeftAndFade': 'slideLeftAndFade 500ms cubic-bezier(0.16, 0, 0.13, 1)',
       },
     },
   },
   plugins: [
-    require("tailwindcss-radix")({
-          variantPrefix: "radix",
-        }),
+    // require("tailwindcss-radix")({
+    //       variantPrefix: "radix",
+    //     }),
   ],
 
 }
