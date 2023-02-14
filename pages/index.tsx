@@ -36,27 +36,27 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <RuiNavigationMenuDemo />
-        <RuiButton variant={'default'} size={'default'}>Eyebrain</RuiButton>
-        <HoverCardDemo />
-        <RuiTabs />
-        <RuiSlider />
-        <RuiSeparator/>
-        <RuiSelect/>
-        <RuiScrollArea/>
-        <RuiRadioGroup />
-        <RuiProgress />
-        <RuiPopover />
-        <RuiMenuBar />
-        <RuiLabel/>
-        <RuiDropdownMenu/>
-        <RuiContextMenu/>
-        <RuiCollapsible/>
-        <RuiCheckbox/>
+        <RuiAccordion />
         <RuiAvatar/>
         <RuiAspectRatio/>
-        <RuiAccordion />
-        <RuiToast />
+        <RuiButton variant={'default'} size={'default'}>Eyebrain</RuiButton>
+        <RuiCheckbox/>
+        <RuiCollapsible/>
+        <RuiContextMenu/>
+        <RuiDropdownMenu/>
+        <HoverCardDemo />
+        <RuiLabel/>
+        <RuiMenuBar />
+        <RuiPopover />
+        <RuiProgress />
+        <RuiRadioGroup />
+        <RuiScrollArea/>
+        <RuiSelect/>
+        <RuiSeparator/>
+        <RuiSlider />
         <RuiSwitch />
+        <RuiTabs />
+        <RuiToast />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
