@@ -6,6 +6,23 @@ import Image from 'next/image'
 import RuiNavigationMenuDemo from '../components/navigationMenu'
 import RuiTabs from '../components/tabs'
 import RuiSlider from '../components/slider'
+import RuiSeparator from '../components/separator'
+import RuiSelect from '../components/select'
+import RuiScrollArea from '../components/scrollArea'
+import RuiRadioGroup from '../components/radioGroup'
+import RuiProgress from '../components/progress'
+import RuiPopover from '../components/popover'
+import RuiMenuBar from '../components/menuBar'
+import RuiLabel from '../components/label'
+import RuiDropdownMenu from '../components/dropdownMenu'
+import RuiContextMenu from '../components/contextMenu'
+import RuiCollapsible from '../components/collapsible'
+import RuiCheckbox from '../components/checkbox'
+import RuiAvatar from '../components/avatar'
+import RuiAspectRatio from '../components/aspectRatio'
+import RuiAccordion from '../components/accordion'
+import RuiToast from '../components/toast'
+import RuiSwitch from '../components/switch'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -23,6 +40,23 @@ const Home: NextPage = () => {
         <HoverCardDemo />
         <RuiTabs />
         <RuiSlider />
+        <RuiSeparator/>
+        <RuiSelect/>
+        <RuiScrollArea/>
+        <RuiRadioGroup />
+        <RuiProgress />
+        <RuiPopover />
+        <RuiMenuBar />
+        <RuiLabel/>
+        <RuiDropdownMenu/>
+        <RuiContextMenu/>
+        <RuiCollapsible/>
+        <RuiCheckbox/>
+        <RuiAvatar/>
+        <RuiAspectRatio/>
+        <RuiAccordion />
+        <RuiToast />
+        <RuiSwitch />
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
