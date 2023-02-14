@@ -25,7 +25,12 @@ import RuiToast from '../components/toast'
 import RuiSwitch from '../components/switch'
 import styles from '../styles/Home.module.css'
 
+
+import { useTheme } from 'next-themes'
+
 const Home: NextPage = () => {
+
+  const { setTheme, theme } = useTheme()
   return (
     <div className={styles.container}>
       <Head>
@@ -37,22 +42,22 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <RuiNavigationMenuDemo />
         <RuiAccordion />
-        <RuiAvatar/>
-        <RuiAspectRatio/>
-        <RuiButton variant={'default'} size={'default'}>Eyebrain</RuiButton>
-        <RuiCheckbox/>
-        <RuiCollapsible/>
-        <RuiContextMenu/>
-        <RuiDropdownMenu/>
+        <RuiAvatar />
+        <RuiAspectRatio />
+        <RuiButton variant={'default'} size={'default'} onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>Eyebrain</RuiButton>
+        <RuiCheckbox />
+        <RuiCollapsible />
+        <RuiContextMenu />
+        <RuiDropdownMenu />
         <HoverCardDemo />
-        <RuiLabel/>
+        <RuiLabel />
         <RuiMenuBar />
         <RuiPopover />
         <RuiProgress />
         <RuiRadioGroup />
-        <RuiScrollArea/>
-        <RuiSelect/>
-        <RuiSeparator/>
+        <RuiScrollArea />
+        <RuiSelect />
+        <RuiSeparator />
         <RuiSlider />
         <RuiSwitch />
         <RuiTabs />
