@@ -87,8 +87,9 @@ const DropdownMenuDemo = () => {
           <DropdownMenu.CheckboxItem
             className="group text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1"
             checked={bookmarksChecked}
+            // @ts-ignore
             onCheckedChange={setBookmarksChecked}
-          >
+            >
             <DropdownMenu.ItemIndicator className="absolute left-0 w-[25px] inline-flex items-center justify-center">
               <CheckIcon />
             </DropdownMenu.ItemIndicator>
@@ -100,8 +101,9 @@ const DropdownMenuDemo = () => {
           <DropdownMenu.CheckboxItem
             className="text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1"
             checked={urlsChecked}
+            // @ts-ignore
             onCheckedChange={setUrlsChecked}
-          >
+            >
             <DropdownMenu.ItemIndicator className="absolute left-0 w-[25px] inline-flex items-center justify-center">
               <CheckIcon />
             </DropdownMenu.ItemIndicator>

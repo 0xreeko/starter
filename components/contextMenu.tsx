@@ -15,6 +15,7 @@ const ContextMenuDemo = () => {
             <ContextMenu.Portal>
                 <ContextMenu.Content
                     className="min-w-[220px] bg-white rounded-md overflow-hidden p-[5px] shadow-[0px_10px_38px_-10px_rgba(22,_23,_24,_0.35),_0px_10px_20px_-15px_rgba(22,_23,_24,_0.2)]"
+                    // @ts-ignore
                     sideOffset={5}
                     loop
                     align="end"
@@ -78,6 +79,7 @@ const ContextMenuDemo = () => {
                     <ContextMenu.CheckboxItem
                         className="group text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1"
                         checked={bookmarksChecked}
+                        // @ts-ignore
                         onCheckedChange={setBookmarksChecked}
                     >
                         <ContextMenu.ItemIndicator className="absolute left-0 w-[25px] inline-flex items-center justify-center">
@@ -91,6 +93,7 @@ const ContextMenuDemo = () => {
                     <ContextMenu.CheckboxItem
                         className="text-[13px] leading-none text-violet11 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-violet9 data-[highlighted]:text-violet1"
                         checked={urlsChecked}
+                        // @ts-ignore
                         onCheckedChange={setUrlsChecked}
                     >
                         <ContextMenu.ItemIndicator className="absolute left-0 w-[25px] inline-flex items-center justify-center">
