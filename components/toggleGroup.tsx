@@ -5,7 +5,7 @@ import { TextAlignLeftIcon, TextAlignCenterIcon, TextAlignRightIcon } from '@rad
 const toggleGroupItemClasses =
   'hover:bg-violet3 color-mauve11 data-[state=on]:bg-violet6 data-[state=on]:text-violet12 flex h-[35px] w-[35px] items-center justify-center bg-white text-base leading-4 first:rounded-l last:rounded-r focus:z-10 focus:shadow-[0_0_0_2px] focus:shadow-black focus:outline-none';
 
-const ToggleGroupDemo = () => (
+const RuiToggleGroup = () => (
   <ToggleGroup.Root
     className="inline-flex bg-mauve6 rounded shadow-[0_2px_10px] shadow-blackA7 space-x-px"
     type="single"
@@ -24,4 +24,4 @@ const ToggleGroupDemo = () => (
   </ToggleGroup.Root>
 );
 
-export default ToggleGroupDemo;
+export default RuiToggleGroup;

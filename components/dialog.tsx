@@ -2,7 +2,7 @@ import React from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
 import { Cross2Icon } from '@radix-ui/react-icons';
 
-const DialogDemo = () => (
+const RuiDialog = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild>
       <button className="text-violet11 shadow-blackA7 hover:bg-mauve3 inline-flex h-[35px] items-center justify-center rounded-[4px] bg-white px-[15px] font-medium leading-none shadow-[0_2px_10px] focus:shadow-[0_0_0_2px] focus:shadow-black focus:outline-none">
@@ -58,4 +58,4 @@ const DialogDemo = () => (
   </Dialog.Root>
 );
 
-export default DialogDemo;
+export default RuiDialog;

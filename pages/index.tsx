@@ -62,6 +62,7 @@ const Home: NextPage = () => {
         <RuiSwitch />
         <RuiTabs />
         <RuiToast />
+        <
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
