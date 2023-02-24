@@ -543,7 +543,7 @@
     "aria-hidden" "^1.1.1"
     "react-remove-scroll" "2.5.5"
 
-"@radix-ui/react-separator@^1.0.1":
+"@radix-ui/react-separator@^1.0.1", "@radix-ui/react-separator@1.0.1":
   "integrity" "sha512-uc6Izot0D8uVz6T2nSb/HI7OaxkeaD50GgKr3W6HORnbfGVrG7LWuy+g6Fd58n8wHbrRblSYJZEfcjgymMlJjw=="
   "resolved" "https://registry.npmjs.org/@radix-ui/react-separator/-/react-separator-1.0.1.tgz"
   "version" "1.0.1"
@@ -625,7 +625,21 @@
     "@radix-ui/react-use-layout-effect" "1.0.0"
     "@radix-ui/react-visually-hidden" "1.0.1"
 
-"@radix-ui/react-toggle@^1.0.1":
+"@radix-ui/react-toggle-group@1.0.2":
+  "integrity" "sha512-Tm5Rn5pdgnr6uexI0cM3X3EZKqYfxlt4iTYx4tBbhSJHtgasgSyXezlHm3tJ5OfSK+1ZIQYD9xV4izifkLuuug=="
+  "resolved" "https://registry.npmjs.org/@radix-ui/react-toggle-group/-/react-toggle-group-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "1.0.0"
+    "@radix-ui/react-context" "1.0.0"
+    "@radix-ui/react-direction" "1.0.0"
+    "@radix-ui/react-primitive" "1.0.1"
+    "@radix-ui/react-roving-focus" "1.0.2"
+    "@radix-ui/react-toggle" "1.0.1"
+    "@radix-ui/react-use-controllable-state" "1.0.0"
+
+"@radix-ui/react-toggle@^1.0.1", "@radix-ui/react-toggle@1.0.1":
   "integrity" "sha512-hZIp9ZKnw4NwVqeB4evWBLa91ryaSJhAO0Ed82wkzRPgg/I29ypcY6SuBb3AMZW+GsuBZpIVujpCq+33TdEcyg=="
   "resolved" "https://registry.npmjs.org/@radix-ui/react-toggle/-/react-toggle-1.0.1.tgz"
   "version" "1.0.1"
@@ -634,6 +648,20 @@
     "@radix-ui/primitive" "1.0.0"
     "@radix-ui/react-primitive" "1.0.1"
     "@radix-ui/react-use-controllable-state" "1.0.0"
+
+"@radix-ui/react-toolbar@^1.0.2":
+  "integrity" "sha512-o7TSqEGzHqUNBhQ6lQLN5QP3JLAJC7Q0j8Yi62zI+BcnptnXoeDA70Mu1YXatiOZ9WPSFg3VE3cyENoU8iZAxw=="
+  "resolved" "https://registry.npmjs.org/@radix-ui/react-toolbar/-/react-toolbar-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/primitive" "1.0.0"
+    "@radix-ui/react-context" "1.0.0"
+    "@radix-ui/react-direction" "1.0.0"
+    "@radix-ui/react-primitive" "1.0.1"
+    "@radix-ui/react-roving-focus" "1.0.2"
+    "@radix-ui/react-separator" "1.0.1"
+    "@radix-ui/react-toggle-group" "1.0.2"
 
 "@radix-ui/react-tooltip@^1.0.4":
   "integrity" "sha512-2h0BvJipRSv7nszzOCdAqb8fH7+Igz24GV1M4aCb/3UPfeMQ+clb1UM5/z2msW3Khir795OCQw2G74YGxjueWw=="
