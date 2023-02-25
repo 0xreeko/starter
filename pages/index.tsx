@@ -23,10 +23,14 @@ import RuiAspectRatio from '../components/aspectRatio'
 import RuiAccordion from '../components/accordion'
 import RuiToast from '../components/toast'
 import RuiSwitch from '../components/switch'
+import RuiToggle from '../components/toggle'
+import RuiToggleGroup from '../components/toggleGroup'
 import styles from '../styles/Home.module.css'
 
 
 import { useTheme } from 'next-themes'
+import RuiAlertDialog from '@/components/alertDialog'
+import RuiDialog from '@/components/dialog'
 
 const Home: NextPage = () => {
 
@@ -62,7 +66,10 @@ const Home: NextPage = () => {
         <RuiSwitch />
         <RuiTabs />
         <RuiToast />
-        <
+        <RuiToggle/>
+        <RuiToggleGroup />
+        <RuiAlertDialog />
+        <RuiDialog/>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
