@@ -6,7 +6,7 @@ const TabsDemo = () => (
     className="flex flex-col w-[300px] shadow-[0_2px_10px] shadow-blackA4"
     defaultValue="tab1"
   >
-    <Tabs.List className="shrink-0 flex border-b border-mauve6" aria-label="Manage your account">
+    <Tabs.List className="flex border-b shrink-0 border-mauve6" aria-label="Manage your account">
       <Tabs.Trigger
         className="bg-white px-5 h-[45px] flex-1 flex items-center justify-center text-[15px] leading-none text-mauve11 select-none first:rounded-tl-md last:rounded-tr-md hover:text-violet11 data-[state=active]:text-violet11 data-[state=active]:shadow-[inset_0_-1px_0_0,0_1px_0_0] data-[state=active]:shadow-current data-[state=active]:focus:relative data-[state=active]:focus:shadow-[0_0_0_2px] data-[state=active]:focus:shadow-black outline-none cursor-default"
         value="tab1"
@@ -25,7 +25,7 @@ const TabsDemo = () => (
       value="tab1"
     >
       <p className="mb-5 text-mauve11 text-[15px] leading-normal">
-        Make changes to your account here. Click save when you're done.
+        Make changes to your account here. Click save when you&apos;re done.
       </p>
       <fieldset className="mb-[15px] w-full flex flex-col justify-start">
         <label className="text-[13px] leading-none mb-2.5 text-violet12 block" htmlFor="name">
@@ -58,7 +58,7 @@ const TabsDemo = () => (
       value="tab2"
     >
       <p className="mb-5 text-mauve11 text-[15px] leading-normal">
-        Change your password here. After saving, you'll be logged out.
+        Change your password here. After saving, you&apos;ll be logged out.
       </p>
       <fieldset className="mb-[15px] w-full flex flex-col justify-start">
         <label
