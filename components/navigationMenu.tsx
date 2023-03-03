@@ -2,6 +2,7 @@ import React from 'react';
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import {clsx} from 'clsx';
 import { CaretDownIcon } from '@radix-ui/react-icons';
+import Link from 'next/link';
 
 const NavigationMenuDemo = () => {
   return (
@@ -19,7 +20,7 @@ const NavigationMenuDemo = () => {
             <ul className="one m-0 grid list-none gap-x-[10px] p-[22px] sm:w-[500px] sm:grid-cols-[0.75fr_1fr]">
               <li className="grid row-span-3">
                 <NavigationMenu.Link asChild>
-                  <a
+                  <Link
                     className="focus:shadow-violet7 from-purple9 to-indigo9 flex 
                     h-full w-full select-none flex-col justify-end rounded-[6px] bg-gradient-to-b p-[25px] no-underline outline-none focus:shadow-[0_0_0_2px]"
                     href="/"
@@ -35,7 +36,7 @@ const NavigationMenuDemo = () => {
                     <p className="text-mauve4 text-[14px] leading-[1.3]">
                       Unstyled, accessible components for React.
                     </p>
-                  </a>
+                  </Link>
                 </NavigationMenu.Link>
               </li>
 
