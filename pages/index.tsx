@@ -25,6 +25,7 @@ import RuiToast from '../components/toast'
 import RuiSwitch from '../components/switch'
 import RuiToggle from '../components/toggle'
 import RuiToggleGroup from '../components/toggleGroup'
+import RuiMultiStep from '../components/multistep'
 import styles from '../styles/Home.module.css'
 
 
@@ -69,7 +70,8 @@ const Home: NextPage = () => {
         <RuiToggle/>
         <RuiToggleGroup />
         <RuiAlertDialog />
-        <RuiDialog/>
+        <RuiDialog />
+        <RuiMultiStep/>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
